@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C885FFE51B9C6C9200827733 /* heartSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = C885FFE21B9C6C9200827733 /* heartSmall.png */; settings = {ASSET_TAGS = (); }; };
+		C885FFE61B9C6C9200827733 /* smallHUD.png in Resources */ = {isa = PBXBuildFile; fileRef = C885FFE31B9C6C9200827733 /* smallHUD.png */; settings = {ASSET_TAGS = (); }; };
+		C885FFE71B9C6C9200827733 /* smallSpeed.png in Resources */ = {isa = PBXBuildFile; fileRef = C885FFE41B9C6C9200827733 /* smallSpeed.png */; settings = {ASSET_TAGS = (); }; };
+		C8D4F0471B9C4C660085FD87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4F0461B9C4C660085FD87 /* AppDelegate.swift */; };
+		C8D4F0491B9C4C660085FD87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4F0481B9C4C660085FD87 /* ViewController.swift */; };
+		C8D4F04C1B9C4C660085FD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D4F04A1B9C4C660085FD87 /* Main.storyboard */; };
+		C8D4F04E1B9C4C660085FD87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8D4F04D1B9C4C660085FD87 /* Assets.xcassets */; };
+		C8D4F0511B9C4C660085FD87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D4F04F1B9C4C660085FD87 /* LaunchScreen.storyboard */; };
+		C8D4F05C1B9C4C660085FD87 /* HeartLifeNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4F05B1B9C4C660085FD87 /* HeartLifeNewTests.swift */; };
+		C8D4F0671B9C4C660085FD87 /* HeartLifeNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4F0661B9C4C660085FD87 /* HeartLifeNewUITests.swift */; };
+		C8D4F06C1B9C4C660085FD87 /* HeartLifeNew WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C8D4F06B1B9C4C660085FD87 /* HeartLifeNew WatchKit App.app */; };
+		C8D4F0721B9C4C660085FD87 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D4F0701B9C4C660085FD87 /* Interface.storyboard */; };
+		C8D4F0741B9C4C660085FD87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8D4F0731B9C4C660085FD87 /* Assets.xcassets */; };
+		C8D4F07B1B9C4C660085FD87 /* HeartLifeNew WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C8D4F07A1B9C4C660085FD87 /* HeartLifeNew WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C8D4F0821B9C4C660085FD87 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4F0811B9C4C660085FD87 /* InterfaceController.swift */; };
+		C8D4F0841B9C4C660085FD87 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4F0831B9C4C660085FD87 /* ExtensionDelegate.swift */; };
+		C8D4F0861B9C4C660085FD87 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4F0851B9C4C660085FD87 /* NotificationController.swift */; };
+		C8D4F0881B9C4C660085FD87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8D4F0871B9C4C660085FD87 /* Assets.xcassets */; };
+		C8D4F09F1B9C537B0085FD87 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D4F09E1B9C537B0085FD87 /* HealthKit.framework */; };
+		C8D4F0A11B9C538D0085FD87 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D4F0A01B9C538D0085FD87 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8D4F0581B9C4C660085FD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D4F03B1B9C4C660085FD87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D4F0421B9C4C660085FD87;
+			remoteInfo = HeartLifeNew;
+		};
+		C8D4F0631B9C4C660085FD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D4F03B1B9C4C660085FD87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D4F0421B9C4C660085FD87;
+			remoteInfo = HeartLifeNew;
+		};
+		C8D4F06D1B9C4C660085FD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D4F03B1B9C4C660085FD87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D4F06A1B9C4C660085FD87;
+			remoteInfo = "HeartLifeNew WatchKit App";
+		};
+		C8D4F07C1B9C4C660085FD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D4F03B1B9C4C660085FD87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D4F0791B9C4C660085FD87;
+			remoteInfo = "HeartLifeNew WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8D4F08F1B9C4C660085FD87 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C8D4F07B1B9C4C660085FD87 /* HeartLifeNew WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4F0931B9C4C660085FD87 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C8D4F06C1B9C4C660085FD87 /* HeartLifeNew WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C885FFE21B9C6C9200827733 /* heartSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heartSmall.png; path = ../heartSmall.png; sourceTree = "<group>"; };
+		C885FFE31B9C6C9200827733 /* smallHUD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallHUD.png; path = ../smallHUD.png; sourceTree = "<group>"; };
+		C885FFE41B9C6C9200827733 /* smallSpeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallSpeed.png; path = ../smallSpeed.png; sourceTree = "<group>"; };
+		C8D4F0431B9C4C660085FD87 /* HeartLifeNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartLifeNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D4F0461B9C4C660085FD87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8D4F0481B9C4C660085FD87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8D4F04B1B9C4C660085FD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8D4F04D1B9C4C660085FD87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8D4F0501B9C4C660085FD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8D4F0521B9C4C660085FD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8D4F0571B9C4C660085FD87 /* HeartLifeNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartLifeNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D4F05B1B9C4C660085FD87 /* HeartLifeNewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartLifeNewTests.swift; sourceTree = "<group>"; };
+		C8D4F05D1B9C4C660085FD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8D4F0621B9C4C660085FD87 /* HeartLifeNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartLifeNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D4F0661B9C4C660085FD87 /* HeartLifeNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartLifeNewUITests.swift; sourceTree = "<group>"; };
+		C8D4F0681B9C4C660085FD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8D4F06B1B9C4C660085FD87 /* HeartLifeNew WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartLifeNew WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D4F0711B9C4C660085FD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C8D4F0731B9C4C660085FD87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8D4F0751B9C4C660085FD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8D4F07A1B9C4C660085FD87 /* HeartLifeNew WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeartLifeNew WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D4F0801B9C4C660085FD87 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C8D4F0811B9C4C660085FD87 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C8D4F0831B9C4C660085FD87 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C8D4F0851B9C4C660085FD87 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C8D4F0871B9C4C660085FD87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8D4F0891B9C4C660085FD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8D4F09D1B9C537B0085FD87 /* HeartLifeNew.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HeartLifeNew.entitlements; sourceTree = "<group>"; };
+		C8D4F09E1B9C537B0085FD87 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		C8D4F0A01B9C538D0085FD87 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		C8D4F0A21B9C538D0085FD87 /* HeartLifeNew WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "HeartLifeNew WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8D4F0401B9C4C660085FD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D4F09F1B9C537B0085FD87 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4F0541B9C4C660085FD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4F05F1B9C4C660085FD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4F0771B9C4C660085FD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D4F0A11B9C538D0085FD87 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8D4F03A1B9C4C660085FD87 = {
+			isa = PBXGroup;
+			children = (
+				C8D4F0A01B9C538D0085FD87 /* HealthKit.framework */,
+				C8D4F09E1B9C537B0085FD87 /* HealthKit.framework */,
+				C8D4F0451B9C4C660085FD87 /* HeartLifeNew */,
+				C8D4F05A1B9C4C660085FD87 /* HeartLifeNewTests */,
+				C8D4F0651B9C4C660085FD87 /* HeartLifeNewUITests */,
+				C8D4F06F1B9C4C660085FD87 /* HeartLifeNew WatchKit App */,
+				C8D4F07E1B9C4C660085FD87 /* HeartLifeNew WatchKit Extension */,
+				C8D4F0441B9C4C660085FD87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8D4F0441B9C4C660085FD87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8D4F0431B9C4C660085FD87 /* HeartLifeNew.app */,
+				C8D4F0571B9C4C660085FD87 /* HeartLifeNewTests.xctest */,
+				C8D4F0621B9C4C660085FD87 /* HeartLifeNewUITests.xctest */,
+				C8D4F06B1B9C4C660085FD87 /* HeartLifeNew WatchKit App.app */,
+				C8D4F07A1B9C4C660085FD87 /* HeartLifeNew WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8D4F0451B9C4C660085FD87 /* HeartLifeNew */ = {
+			isa = PBXGroup;
+			children = (
+				C8D4F09D1B9C537B0085FD87 /* HeartLifeNew.entitlements */,
+				C885FFE31B9C6C9200827733 /* smallHUD.png */,
+				C885FFE21B9C6C9200827733 /* heartSmall.png */,
+				C885FFE41B9C6C9200827733 /* smallSpeed.png */,
+				C8D4F0461B9C4C660085FD87 /* AppDelegate.swift */,
+				C8D4F0481B9C4C660085FD87 /* ViewController.swift */,
+				C8D4F04A1B9C4C660085FD87 /* Main.storyboard */,
+				C8D4F04D1B9C4C660085FD87 /* Assets.xcassets */,
+				C8D4F04F1B9C4C660085FD87 /* LaunchScreen.storyboard */,
+				C8D4F0521B9C4C660085FD87 /* Info.plist */,
+			);
+			path = HeartLifeNew;
+			sourceTree = "<group>";
+		};
+		C8D4F05A1B9C4C660085FD87 /* HeartLifeNewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8D4F05B1B9C4C660085FD87 /* HeartLifeNewTests.swift */,
+				C8D4F05D1B9C4C660085FD87 /* Info.plist */,
+			);
+			path = HeartLifeNewTests;
+			sourceTree = "<group>";
+		};
+		C8D4F0651B9C4C660085FD87 /* HeartLifeNewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8D4F0661B9C4C660085FD87 /* HeartLifeNewUITests.swift */,
+				C8D4F0681B9C4C660085FD87 /* Info.plist */,
+			);
+			path = HeartLifeNewUITests;
+			sourceTree = "<group>";
+		};
+		C8D4F06F1B9C4C660085FD87 /* HeartLifeNew WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C8D4F0701B9C4C660085FD87 /* Interface.storyboard */,
+				C8D4F0731B9C4C660085FD87 /* Assets.xcassets */,
+				C8D4F0751B9C4C660085FD87 /* Info.plist */,
+			);
+			path = "HeartLifeNew WatchKit App";
+			sourceTree = "<group>";
+		};
+		C8D4F07E1B9C4C660085FD87 /* HeartLifeNew WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C8D4F0A21B9C538D0085FD87 /* HeartLifeNew WatchKit Extension.entitlements */,
+				C8D4F0811B9C4C660085FD87 /* InterfaceController.swift */,
+				C8D4F0831B9C4C660085FD87 /* ExtensionDelegate.swift */,
+				C8D4F0851B9C4C660085FD87 /* NotificationController.swift */,
+				C8D4F0871B9C4C660085FD87 /* Assets.xcassets */,
+				C8D4F0891B9C4C660085FD87 /* Info.plist */,
+				C8D4F07F1B9C4C660085FD87 /* Supporting Files */,
+			);
+			path = "HeartLifeNew WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C8D4F07F1B9C4C660085FD87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8D4F0801B9C4C660085FD87 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8D4F0421B9C4C660085FD87 /* HeartLifeNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D4F0941B9C4C660085FD87 /* Build configuration list for PBXNativeTarget "HeartLifeNew" */;
+			buildPhases = (
+				C8D4F03F1B9C4C660085FD87 /* Sources */,
+				C8D4F0401B9C4C660085FD87 /* Frameworks */,
+				C8D4F0411B9C4C660085FD87 /* Resources */,
+				C8D4F0931B9C4C660085FD87 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D4F06E1B9C4C660085FD87 /* PBXTargetDependency */,
+			);
+			name = HeartLifeNew;
+			productName = HeartLifeNew;
+			productReference = C8D4F0431B9C4C660085FD87 /* HeartLifeNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8D4F0561B9C4C660085FD87 /* HeartLifeNewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D4F0971B9C4C660085FD87 /* Build configuration list for PBXNativeTarget "HeartLifeNewTests" */;
+			buildPhases = (
+				C8D4F0531B9C4C660085FD87 /* Sources */,
+				C8D4F0541B9C4C660085FD87 /* Frameworks */,
+				C8D4F0551B9C4C660085FD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D4F0591B9C4C660085FD87 /* PBXTargetDependency */,
+			);
+			name = HeartLifeNewTests;
+			productName = HeartLifeNewTests;
+			productReference = C8D4F0571B9C4C660085FD87 /* HeartLifeNewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8D4F0611B9C4C660085FD87 /* HeartLifeNewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D4F09A1B9C4C660085FD87 /* Build configuration list for PBXNativeTarget "HeartLifeNewUITests" */;
+			buildPhases = (
+				C8D4F05E1B9C4C660085FD87 /* Sources */,
+				C8D4F05F1B9C4C660085FD87 /* Frameworks */,
+				C8D4F0601B9C4C660085FD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D4F0641B9C4C660085FD87 /* PBXTargetDependency */,
+			);
+			name = HeartLifeNewUITests;
+			productName = HeartLifeNewUITests;
+			productReference = C8D4F0621B9C4C660085FD87 /* HeartLifeNewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C8D4F06A1B9C4C660085FD87 /* HeartLifeNew WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D4F0901B9C4C660085FD87 /* Build configuration list for PBXNativeTarget "HeartLifeNew WatchKit App" */;
+			buildPhases = (
+				C8D4F0691B9C4C660085FD87 /* Resources */,
+				C8D4F08F1B9C4C660085FD87 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D4F07D1B9C4C660085FD87 /* PBXTargetDependency */,
+			);
+			name = "HeartLifeNew WatchKit App";
+			productName = "HeartLifeNew WatchKit App";
+			productReference = C8D4F06B1B9C4C660085FD87 /* HeartLifeNew WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C8D4F0791B9C4C660085FD87 /* HeartLifeNew WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D4F08C1B9C4C660085FD87 /* Build configuration list for PBXNativeTarget "HeartLifeNew WatchKit Extension" */;
+			buildPhases = (
+				C8D4F0761B9C4C660085FD87 /* Sources */,
+				C8D4F0771B9C4C660085FD87 /* Frameworks */,
+				C8D4F0781B9C4C660085FD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeartLifeNew WatchKit Extension";
+			productName = "HeartLifeNew WatchKit Extension";
+			productReference = C8D4F07A1B9C4C660085FD87 /* HeartLifeNew WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8D4F03B1B9C4C660085FD87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = VirtuaLife;
+				TargetAttributes = {
+					C8D4F0421B9C4C660085FD87 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5N6V5LNT5A;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					C8D4F0561B9C4C660085FD87 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C8D4F0421B9C4C660085FD87;
+					};
+					C8D4F0611B9C4C660085FD87 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C8D4F0421B9C4C660085FD87;
+					};
+					C8D4F06A1B9C4C660085FD87 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5N6V5LNT5A;
+					};
+					C8D4F0791B9C4C660085FD87 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5N6V5LNT5A;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C8D4F03E1B9C4C660085FD87 /* Build configuration list for PBXProject "HeartLifeNew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8D4F03A1B9C4C660085FD87;
+			productRefGroup = C8D4F0441B9C4C660085FD87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8D4F0421B9C4C660085FD87 /* HeartLifeNew */,
+				C8D4F0561B9C4C660085FD87 /* HeartLifeNewTests */,
+				C8D4F0611B9C4C660085FD87 /* HeartLifeNewUITests */,
+				C8D4F06A1B9C4C660085FD87 /* HeartLifeNew WatchKit App */,
+				C8D4F0791B9C4C660085FD87 /* HeartLifeNew WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8D4F0411B9C4C660085FD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D4F0511B9C4C660085FD87 /* LaunchScreen.storyboard in Resources */,
+				C885FFE61B9C6C9200827733 /* smallHUD.png in Resources */,
+				C8D4F04E1B9C4C660085FD87 /* Assets.xcassets in Resources */,
+				C885FFE51B9C6C9200827733 /* heartSmall.png in Resources */,
+				C8D4F04C1B9C4C660085FD87 /* Main.storyboard in Resources */,
+				C885FFE71B9C6C9200827733 /* smallSpeed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4F0551B9C4C660085FD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4F0601B9C4C660085FD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4F0691B9C4C660085FD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D4F0741B9C4C660085FD87 /* Assets.xcassets in Resources */,
+				C8D4F0721B9C4C660085FD87 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4F0781B9C4C660085FD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D4F0881B9C4C660085FD87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8D4F03F1B9C4C660085FD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D4F0491B9C4C660085FD87 /* ViewController.swift in Sources */,
+				C8D4F0471B9C4C660085FD87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4F0531B9C4C660085FD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D4F05C1B9C4C660085FD87 /* HeartLifeNewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4F05E1B9C4C660085FD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D4F0671B9C4C660085FD87 /* HeartLifeNewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D4F0761B9C4C660085FD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D4F0861B9C4C660085FD87 /* NotificationController.swift in Sources */,
+				C8D4F0841B9C4C660085FD87 /* ExtensionDelegate.swift in Sources */,
+				C8D4F0821B9C4C660085FD87 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8D4F0591B9C4C660085FD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8D4F0421B9C4C660085FD87 /* HeartLifeNew */;
+			targetProxy = C8D4F0581B9C4C660085FD87 /* PBXContainerItemProxy */;
+		};
+		C8D4F0641B9C4C660085FD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8D4F0421B9C4C660085FD87 /* HeartLifeNew */;
+			targetProxy = C8D4F0631B9C4C660085FD87 /* PBXContainerItemProxy */;
+		};
+		C8D4F06E1B9C4C660085FD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8D4F06A1B9C4C660085FD87 /* HeartLifeNew WatchKit App */;
+			targetProxy = C8D4F06D1B9C4C660085FD87 /* PBXContainerItemProxy */;
+		};
+		C8D4F07D1B9C4C660085FD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8D4F0791B9C4C660085FD87 /* HeartLifeNew WatchKit Extension */;
+			targetProxy = C8D4F07C1B9C4C660085FD87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8D4F04A1B9C4C660085FD87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8D4F04B1B9C4C660085FD87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8D4F04F1B9C4C660085FD87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8D4F0501B9C4C660085FD87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C8D4F0701B9C4C660085FD87 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8D4F0711B9C4C660085FD87 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8D4F08A1B9C4C660085FD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8D4F08B1B9C4C660085FD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8D4F08D1B9C4C660085FD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "HeartLifeNew WatchKit Extension/HeartLifeNew WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "HeartLifeNew WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = again.HeartLifeNew.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C8D4F08E1B9C4C660085FD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "HeartLifeNew WatchKit Extension/HeartLifeNew WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "HeartLifeNew WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = again.HeartLifeNew.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		C8D4F0911B9C4C660085FD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = HeartLifeNew_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartLifeNew WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = again.HeartLifeNew.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C8D4F0921B9C4C660085FD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = HeartLifeNew_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartLifeNew WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = again.HeartLifeNew.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		C8D4F0951B9C4C660085FD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HeartLifeNew/HeartLifeNew.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HeartLifeNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = again.HeartLifeNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C8D4F0961B9C4C660085FD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HeartLifeNew/HeartLifeNew.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HeartLifeNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = again.HeartLifeNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C8D4F0981B9C4C660085FD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeartLifeNewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = again.HeartLifeNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartLifeNew.app/HeartLifeNew";
+			};
+			name = Debug;
+		};
+		C8D4F0991B9C4C660085FD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeartLifeNewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = again.HeartLifeNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartLifeNew.app/HeartLifeNew";
+			};
+			name = Release;
+		};
+		C8D4F09B1B9C4C660085FD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeartLifeNewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = again.HeartLifeNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeartLifeNew;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C8D4F09C1B9C4C660085FD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeartLifeNewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = again.HeartLifeNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeartLifeNew;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8D4F03E1B9C4C660085FD87 /* Build configuration list for PBXProject "HeartLifeNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D4F08A1B9C4C660085FD87 /* Debug */,
+				C8D4F08B1B9C4C660085FD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D4F08C1B9C4C660085FD87 /* Build configuration list for PBXNativeTarget "HeartLifeNew WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D4F08D1B9C4C660085FD87 /* Debug */,
+				C8D4F08E1B9C4C660085FD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D4F0901B9C4C660085FD87 /* Build configuration list for PBXNativeTarget "HeartLifeNew WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D4F0911B9C4C660085FD87 /* Debug */,
+				C8D4F0921B9C4C660085FD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D4F0941B9C4C660085FD87 /* Build configuration list for PBXNativeTarget "HeartLifeNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D4F0951B9C4C660085FD87 /* Debug */,
+				C8D4F0961B9C4C660085FD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D4F0971B9C4C660085FD87 /* Build configuration list for PBXNativeTarget "HeartLifeNewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D4F0981B9C4C660085FD87 /* Debug */,
+				C8D4F0991B9C4C660085FD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D4F09A1B9C4C660085FD87 /* Build configuration list for PBXNativeTarget "HeartLifeNewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D4F09B1B9C4C660085FD87 /* Debug */,
+				C8D4F09C1B9C4C660085FD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8D4F03B1B9C4C660085FD87 /* Project object */;
+}

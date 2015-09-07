@@ -1,0 +1,22 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "opteam",
+    "longName": "VirtuaLight C",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "VirtuaLight C",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "03c9f6cc-e9e4-4697-893f-90ecc16aa768",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
